@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\appyourserbisyoph\resources\views/landing-page/partials/loading.blade.php ENDPATH**/ ?>

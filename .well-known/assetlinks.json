@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "ays.instant.service",
+               "sha256_cert_fingerprints": ["42:a2:b4:09:7d:2e:bb:a0:1f:b3:bd:a7:8a:65:71:27:44:0e:39:65:44:c9:95:d4:e2:cb:82:6e:c4:c7:40:a8"] }
+}]

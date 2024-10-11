@@ -1,0 +1,46 @@
+.max-height-400{
+    height: 500px;
+    max-height: 400px;
+  }
+  
+.dashboard-card-value{
+  font-size: 1.6rem;
+}
+
+
+.form-check-inline {
+  display: inline-block;
+  // margin-right: $form-check-inline-margin-end;
+}
+
+.btn-check {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+
+  &[disabled],
+  &:disabled {
+    + .btn {
+      pointer-events: none;
+      filter: none;
+      // opacity: $form-check-btn-check-disabled-opacity;
+    }
+  }
+  + .btn.btn-border {
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    h5 {
+      font-weight: 500;
+    }
+    &:hover {
+      background-color: transparent;
+      border-color: $primary;
+    }
+  }
+}
+
+.btn-check:active+.btn.btn-border, .btn-check:checked+.btn.btn-border, .btn.btn-border.active, .btn.btn-border:active {
+  border-color: $primary;
+  border-color: $primary;
+  color: $white;
+}
